@@ -1,0 +1,19 @@
+{
+  "name": "upwork_1",
+  "version": "1.0.0",
+  "description": "upwork_1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximSamorukov/upwork_1.git"
+  },
+  "author": "Maxim Samorukov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximSamorukov/upwork_1/issues"
+  },
+  "homepage": "https://github.com/MaximSamorukov/upwork_1#readme"
+}
