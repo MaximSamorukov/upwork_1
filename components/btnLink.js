@@ -18,8 +18,14 @@ function btnLink() {
   itemsContainer.className = 'items-container';
   const element = document.createElement('div');
   element.className = 'btnlink'
-  Array.from({ length: 20 }).map((i) => {
+  Array.from({ length: 20 }).map((i, index) => {
+    const imgContainer = document.createElement('div');
+    imgContainer.className = 'image-container';
+    const img = document.createElement('img');
+    img.src = `http://newtab.club/img/Newtabclub-site-${index + 1}.jpg`;
+    imgContainer.append(img);
     const item = document.createElement('div');
+    item.append(imgContainer);
     item.className = 'btnitem';
     item.addEventListener('mouseenter', inCallback);
     item.addEventListener('mouseleave', outCallback);
