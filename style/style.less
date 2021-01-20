@@ -7,7 +7,7 @@
 body {
   height: auto;
   background-color: @bgColor;
-  padding: 2px;
+  // padding: 2px;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -16,7 +16,7 @@ body {
 .target {
   background-color: @bgColor;
   font-size: @size;
-  border: 1px solid @color;
+  // border: 1px solid @color;
   color: @color;
   height: 100%;
   display: flex;
@@ -26,9 +26,36 @@ body {
   width: 100vw;
 }
 
-.social, .search {
-  border: 1px solid @bodyColor;
+.search {
+  // border: 1px solid @bodyColor;
 
+}
+
+.social {
+  width: 90%;
+  min-width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: flex-start;
+  // border: 1px solid firebrick;
+}
+
+.social-item {
+  width: 70px;
+  height: 70px;
+  // border: 1px solid black;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-image: url(http://newtab.club/img/newtabclub-buttons-5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
 }
 
 .search {
@@ -39,7 +66,7 @@ body {
 
 .search-container {
   margin: 0;
-  border: 1px solid skyblue;
+  // border: 1px solid skyblue;
 
 }
 
@@ -50,84 +77,137 @@ body {
   width: 90%;
   flex-wrap: wrap;
   align-self: center;
-  border: 1px solid rgb(13, 255, 0);
+  // border: 1px solid rgb(13, 255, 0);
 }
 
 .btnitem {
   width: @btnsize + 30px;
   height: @btnsize;
   min-height: @btnsize;
-  background-color: brown;
+  // background-color: brown;
   border: 1px solid gray;
   // margin-left: 30px;
   // margin-bottom: 30px;
   margin: 20px;
   align-self: center;
+  position: relative;
+}
+
+.btnitem-after {
+  position: absolute;
+  line-height: 20px;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  top: 0px;
+  right: 0px;
+  color: #fff;
+  background-color: rgb(150, 150, 150);
+}
+.btnitem-after:after, .btnitem-after:before {
+  position: absolute;
+  left: 11px;
+  top: 3px;
+  content: ' ';
+  height: 18px;
+  width: 2px;
+  background-color: #333;
+}
+
+.btnitem-after::before {
+  transform: rotate(45deg);
+}
+.btnitem-after:after {
+  transform: rotate(-45deg);
 }
 
 .items-container {
   width: max-content;
   max-width: max-content;
-  border: 1px solid salmon;
+  // border: 1px solid salmon;
   justify-content: inherit;
   display: flex;
   flex-wrap: wrap;
 }
 
-// @media (min-width: 595px) {
-//   .search {
-//     width: 400px;
-//     max-width: 400px;
-//   }
-// }
+@media (max-width: 494px) {
+  .btnitem {
+    width: 400px;
+    max-width: 400px;
+  }
 
-// @media (max-width: 790px) {
-//   .search {
-//     width: 400px;
-//     max-width: 400px;
-//   }
-// }
+  .search {
+    width: 400px;
+    max-width: 400px;
+  }
 
-@media (max-width: 790px) {
+  .social-container {
+    width: 425px;
+    max-width: 425px;
+  }
+  .social-item {
+    margin-left: 12px;
+  }
+}
+
+
+@media (min-width: 495px) {
+  .search {
+    width: 400px;
+    max-width: 400px;
+  }
+
+  .social-container {
+    width: 425px;
+    max-width: 425px;
+  }
+  .social-item {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 739px) {
+  .search {
+    width: 400px;
+    max-width: 400px;
+  }
+  .social-container {
+    width: 425px;
+    max-width: 425px;
+  }
+  .social-item {
+    margin-left: 12px;
+  }
+}
+
+@media (min-width: 740px) {
   .search {
     width: 620px;
     max-width: 620px;
   }
+  .social-container {
+    width: 645px;
+    max-width: 645px;
+  }
+  .social-item {
+    margin-left: 12px;
+  }
 }
 
-// @media(min-width: 790px) {
-//   .search {
-//     width: 620px;
-//     max-width: 620px;
-//   }
-// }
-
-
-// @media(min-width: 790px) {
-//   .search {
-//     width: 620px;
-//   }
-// }
-
-// @media (min-width: 790px) {
-//   .search {
-//     width: 840px;
-//   }
-// }
-
-// @media(min-width: 790px) {
-//   .search {
-//     width: 840px;
-//   }
-// }
-
-@media(min-width: 985px) {
+@media (min-width: 980px) {
   .search {
-    width: 1060px;
+    width: 840px;
+    max-width: 840px;
   }
   .btnlink {
-    width: 1150px;
-    max-width: 1150px;
+    width: 900px;
+    max-width: 900px;
   }
-
+  .social-container {
+    width: 865px;
+    max-width: 865px;
+  }
+  .social-item {
+    margin-left: 12px;
+  }
 }
