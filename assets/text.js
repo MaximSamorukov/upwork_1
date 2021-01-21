@@ -2,181 +2,217 @@ const array = [
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-1.jpg",
     img: "http://newtab.club/img/Newtabclub-site-1.jpg",
-    name: "wildberries"
+    name: "wildberries",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-2.jpg",
     img: "http://newtab.club/img/Newtabclub-site-2.jpg",
-    name: "ebay"
+    name: "ebay",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-3.jpg",
     img: "http://newtab.club/img/Newtabclub-site-3.jpg",
-    name: "Lenta.ru"
+    name: "Lenta.ru",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-4.jpg",
     img: "http://newtab.club/img/Newtabclub-site-4.jpg",
-    name: "auto.ru"
+    name: "auto.ru",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-5.jpg",
     img: "http://newtab.club/img/Newtabclub-site-5.jpg",
-    name: "hh.ru"
+    name: "hh.ru",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-6.jpg",
     img: "http://newtab.club/img/Newtabclub-site-6.jpg",
-    name: "2gis.ru"
+    name: "2gis.ru",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-7.jpg",
     img: "http://newtab.club/img/Newtabclub-site-7.jpg",
-    name: "rbk"
+    name: "rbk",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-8.jpg",
     img: "http://newtab.club/img/Newtabclub-site-8.jpg",
-    name: "kinopoisk"
+    name: "kinopoisk",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-9.jpg",
     img: "http://newtab.club/img/Newtabclub-site-9.jpg",
-    name: "livejournal"
+    name: "livejournal",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-10.jpg",
     img: "http://newtab.club/img/Newtabclub-site-10.jpg",
-    name: "drom.ru"
+    name: "drom.ru",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-11.jpg",
     img: "http://newtab.club/img/Newtabclub-site-11.jpg",
-    name: "gismeteo"
+    name: "gismeteo",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-12.jpg",
     img: "http://newtab.club/img/Newtabclub-site-12.jpg",
-    name: "sberbank"
+    name: "sberbank",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-13.jpg",
     img: "http://newtab.club/img/Newtabclub-site-13.jpg",
-    name: "wikipedia"
+    name: "wikipedia",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-14.jpg",
     img: "http://newtab.club/img/Newtabclub-site-14.jpg",
-    name: "aliexpress"
+    name: "aliexpress",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-15.jpg",
     img: "http://newtab.club/img/Newtabclub-site-15.jpg",
-    name: "avito"
+    name: "avito",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-16.jpg",
     img: "http://newtab.club/img/Newtabclub-site-16.jpg",
-    name: "youtube"
+    name: "youtube",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-17.jpg",
     img: "http://newtab.club/img/Newtabclub-site-17.jpg",
-    name: "google"
+    name: "google",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-18.jpg",
     img: "http://newtab.club/img/Newtabclub-site-18.jpg",
-    name: "yandex"
+    name: "yandex",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-19.jpg",
     img: "http://newtab.club/img/Newtabclub-site-19.jpg",
-    name: "facebook"
+    name: "facebook",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-20.jpg",
     img: "http://newtab.club/img/Newtabclub-site-20.jpg",
-    name: "leboncoin"
+    name: "leboncoin",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-21.jpg",
     img: "http://newtab.club/img/Newtabclub-site-21.jpg",
-    name: "orange"
+    name: "orange",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-22.jpg",
     img: "http://newtab.club/img/Newtabclub-site-22.jpg",
-    name: "el pais"
+    name: "el pais",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-23.jpg",
     img: "http://newtab.club/img/Newtabclub-site-23.jpg",
-    name: "el mundo"
+    name: "el mundo",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-24.jpg",
     img: "http://newtab.club/img/Newtabclub-site-24.jpg",
-    name: "souq"
+    name: "souq",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-25.jpg",
     img: "http://newtab.club/img/Newtabclub-site-25.jpg",
-    name: "manoramaonline.com"
+    name: "manoramaonline.com",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-26.jpg",
     img: "http://newtab.club/img/Newtabclub-site-26.jpg",
-    name: "tribun news"
+    name: "tribun news",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-27.jpg",
     img: "http://newtab.club/img/Newtabclub-site-27.jpg",
-    name: "tokopedia"
+    name: "tokopedia",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-28.jpg",
     img: "http://newtab.club/img/Newtabclub-site-28.jpg",
-    name: "detik.com"
+    name: "detik.com",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-29.jpg",
     img: "http://newtab.club/img/Newtabclub-site-29.jpg",
-    name: "allegro"
+    name: "allegro",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-30.jpg",
     img: "http://newtab.club/img/Newtabclub-site-30.jpg",
-    name: "onet.pl"
+    name: "onet.pl",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-31.jpg",
     img: "http://newtab.club/img/Newtabclub-site-31.jpg",
-    name: "wirtual polska"
+    name: "wirtual polska",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-32.jpg",
     img: "http://newtab.club/img/Newtabclub-site-32.jpg",
-    name: "абв"
+    name: "абв",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-33.jpg",
     img: "http://newtab.club/img/Newtabclub-site-33.jpg",
-    name: "vbox7"
+    name: "vbox7",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-34.jpg",
     img: "http://newtab.club/img/Newtabclub-site-34.jpg",
-    name: "vk"
+    name: "vk",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-35.jpg",
     img: "http://newtab.club/img/Newtabclub-site-35.jpg",
-    name: "ynet"
+    name: "ynet",
+    link: " ",
   },
   {
     icon: "http://newtab.club/img/Newtabclub-favicon-36.jpg",
     img: "http://newtab.club/img/Newtabclub-site-36.jpg",
-    name: "sezham.cz"
+    name: "sezham.cz",
+    link: " ",
   }
 ]
