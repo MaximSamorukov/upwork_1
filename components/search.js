@@ -6,7 +6,9 @@ const search = () => {
   searchField.type = 'text';
   searchField.placeholder = 'Search';
   searchFieldContainer.append(searchField);
-
+  searchField.addEventListener('input', (e) => {
+    console.log(e.target.value);
+  })
   const element = document.createElement('div');
   const searchContainer = document.createElement('div');
   searchContainer.className = 'search-container';
