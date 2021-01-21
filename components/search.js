@@ -1,4 +1,5 @@
 const search = () => {
+  const localStorage = window.localStorage;
   const searchFieldContainer = document.createElement('div');
   const searchField = document.createElement('input');
   searchFieldContainer.className = 'input-group mb-3';
@@ -7,7 +8,9 @@ const search = () => {
   searchField.placeholder = 'Search';
   searchFieldContainer.append(searchField);
   searchField.addEventListener('input', (e) => {
-    console.log(e.target.value);
+    const { value } = e.target;
+    console.log(value);
+    localStorage.setItem('value', value);
   })
   const element = document.createElement('div');
   const searchContainer = document.createElement('div');

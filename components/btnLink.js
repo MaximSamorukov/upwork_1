@@ -1,4 +1,11 @@
 function btnLink() {
+  function clickanchor(e) {
+    const ls = window.localStorage;
+    const value = ls.getItem('value');
+    // e.preventDefault();
+    this.href = `${this.href}`;
+  }
+
   function inCallback(e) {
     e.stopPropagation();
     e.stopImmediatePropagation();
@@ -17,16 +24,12 @@ function btnLink() {
     this.removeChild(closeElement);
   }
 
-  function onClick(e) {
-
-  }
-
   const itemsContainer = document.createElement('div');
   itemsContainer.className = 'items-container';
   const element = document.createElement('div');
   element.className = 'btnlink';
   // const s = {};
-  console.log(array);
+  // console.log(array);
   // const s = Array.from({ length: 36 }).map((i, index) => {
   //   const img = `http://newtab.club/img/Newtabclub-site-${index + 1}.jpg`;
   //   const icon = `http://newtab.club/img/Newtabclub-favicon-${index + 1}.jpg`;
@@ -39,10 +42,11 @@ function btnLink() {
   // });
   // const local = window.localStorage;
   // local.setItem('local', JSON.stringify(s));
-  array.map((i, index) => {
+  array.slice(0, 10).map((i, index) => {
     const anchor = document.createElement('a');
     anchor.href = `http://${i.link}`;
     anchor.target = "_blank";
+    // anchor.addEventListener('click', clickanchor);
     const imgContainer = document.createElement('div');
     anchor.append(imgContainer);
     imgContainer.className = 'image-container';
@@ -65,9 +69,10 @@ function btnLink() {
     item.className = 'btnitem';
     item.addEventListener('mouseenter', inCallback);
     item.addEventListener('mouseleave', outCallback);
-    item.addEventListener('click', onClick);
+    // item.addEventListener('click', onClick);
     itemsContainer.append(item);
   })
+  itemsContainer.appendChild(addLinkBtn({ type: 'not-social' }))
   element.append(itemsContainer);
   return element;
 }

@@ -9,6 +9,8 @@ function social() {
     closeElement.className = 'socialitem-after';
     this.append(closeElement);
   }
+  // console.log(addLinkBtn({ type: 'social' }));
+  // console.log(addLinkBtn({ type: 'not-social' }));
 
   function outCallback(e) {
     e.stopPropagation();
@@ -34,5 +36,6 @@ function social() {
 
     elementInnerContainer.append(item);
   })
+  elementInnerContainer.appendChild(addLinkBtn({ type: 'social' }));
   return element;
 }
