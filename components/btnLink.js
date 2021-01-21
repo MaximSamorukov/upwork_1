@@ -40,7 +40,11 @@ function btnLink() {
   // const local = window.localStorage;
   // local.setItem('local', JSON.stringify(s));
   array.map((i, index) => {
+    const anchor = document.createElement('a');
+    anchor.href = `http://${i.link}`;
+    anchor.target = "_blank";
     const imgContainer = document.createElement('div');
+    anchor.append(imgContainer);
     imgContainer.className = 'image-container';
     const img = document.createElement('img');
     img.src = i.img;  //`http://newtab.club/img/Newtabclub-site-${index + 1}.jpg`;
@@ -56,7 +60,7 @@ function btnLink() {
     iconContainer.append(icon);
     iconContainer.append(text);
     const item = document.createElement('div');
-    item.append(imgContainer);
+    item.append(anchor);
     item.append(iconContainer);
     item.className = 'btnitem';
     item.addEventListener('mouseenter', inCallback);
